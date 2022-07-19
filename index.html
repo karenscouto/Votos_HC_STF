@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<!-- Coloque aqui o seletor com os nomes dos Ministros -->
+Selecione um Ministro:
+<select onchange="validar()">
+  <option></option>
+  <option>Gilmar Mendes</option>
+  <option>Ricardo Lewandowski</option>
+  <option>Rosa Weber</option>
+  <option>Luiz Fux</option>
+  <option>Cármen Lúcia</option>
+  <option>Edson Fachin</option>
+  <option>Luis Roberto Barroso</option>
+  <option>Dias Toffoli</option>
+  <option>Alexandre de Moraes</option>
+  <option>André Mendonça</option>
+  <option>Nunes Marques</option>
+</select>
+
+<div id ="grafico-habeas-corpus">
+
+    <div class="barras">
+
+        <div class="barra-01"></div>
+        <div class="barra-02"></div>
+
+    </div>
+
+    <div class="legenda">
+
+        <div>HC Concedido</div>
+        <div>HC Negado</div>
+
+    </div>
+
+</div>
+    
+</body>
+<script src="app.js"></script>
+</html>
